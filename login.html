@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+  </div>
+    <div class="login-container">
+      <form class="login-form">
+        <h1>Login</h1>
+        <input type="text" placeholder="Username" >
+        <input type="password" placeholder="Password" >
+        <button  class="button_btn" onclick={onButtonClick} type="submit">Login</button>
+      </form>
+    </div>
+ <script> 
+            
+ const button= document.getElementsByClassName("button_btn") 
+const onButtonClick=(e)=>{
+  e.preventDefault();
+  console.log("Hello World!")
+}
+
+ </script>
+</body> 
+</html>
